@@ -1,18 +1,16 @@
----
-title: "Peer review Project: Getting and cleaning data"
-output: html_notebook
----
-Author: Gildas Wilfrid MAKAYA
+Peer review Project: Getting and cleaning data
+=====
+### Author: Gildas Wilfrid MAKAYA
 
-##Purpose
+## Purpose
 ________
 The purpose of this project is to demonstrate student ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.
 
-##Data source
+## Data source
 ________
 Data and its description can be found here [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
-##Data set summary
+## Data set summary
 ________
 Abstract: Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 
@@ -23,7 +21,7 @@ Attribute Characteristics: N/A
 Number of Attributes: 561
 
 
-##Data Set Information:
+## Data Set Information:
 ________
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities **(WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)** wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
@@ -36,7 +34,7 @@ A video of the experiment including an example of the 6 recorded activities with
 An updated version of this dataset can be found at [Web Link]. It includes labels of postural transitions between activities and also the full raw inertial signals instead of the ones pre-processed into windows.
 
 
-##Attribute Information:
+## Attribute Information:
 ________
 For each record in the dataset it is provided: 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
@@ -47,7 +45,7 @@ For each record in the dataset it is provided:
 
 
 
-###For each record it is provided:
+### For each record it is provided:
 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope. 
@@ -55,7 +53,7 @@ For each record in the dataset it is provided:
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
-###The dataset includes the following files:
+### The dataset includes the following files:
 
 - 'README.txt'
 
@@ -83,14 +81,14 @@ The following files are available for the train and test data. Their description
 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
-###Notes: 
+### Notes: 
 
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
 
 For more information about this dataset contact: activityrecognition@smartlab.ws
 
-##License:
+## License:
 ________
 Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
 
